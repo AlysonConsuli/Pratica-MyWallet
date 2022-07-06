@@ -1,7 +1,6 @@
 import cors from "cors";
 import express from "express";
 import "express-async-errors";
-
 import router from "./routes/index.js";
 import handleError from "./middlewares/errorHandlingMiddleware.js";
 
